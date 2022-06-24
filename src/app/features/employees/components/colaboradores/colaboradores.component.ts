@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ColaboradoresComponent implements OnInit {
 
-titulo = "Funcionários";
+  titulo = "Funcionários";
 
   colaborador = {
     id: 7,
@@ -21,7 +21,7 @@ titulo = "Funcionários";
   ngOnInit(): void {
     console.log("teste");
   }
-saibaMais() {
-  alert ("Estamos ajustando para melhor atende-ló!");
-}
+  saibaMais() {
+    alert("Estamos ajustando para melhor atende-ló!");
+  }
 }
