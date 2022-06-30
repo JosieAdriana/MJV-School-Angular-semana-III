@@ -1,9 +1,12 @@
 <h2>{{ titulo }}</h2>
-<div>
+
+<div *ngIf ="exibeColaborador">
     <p>Id: {{ colaborador.id }}</p>
     <p>Nome: {{ colaborador.nome }}</p>
     <p>Salário: {{colaborador.salario}}</p>
     <p>Cargo: {{colaborador.cargo}}</p>
 </div>
-<br>
+
+<button (click)="exibeColaboradorSimNao()">Exibe Colaborador</button>
+<hr>
 <button (click)="saibaMais()">Saiba mais</button>

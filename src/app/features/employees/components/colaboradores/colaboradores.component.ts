@@ -9,6 +9,8 @@ export class ColaboradoresComponent implements OnInit {
 
   titulo = "Funcionários";
 
+  exibeColaborador = true;
+
   colaborador = {
     id: 7,
     nome: "Nathan Carlos Exercício",
@@ -23,5 +25,9 @@ export class ColaboradoresComponent implements OnInit {
   }
   saibaMais() {
     alert("Estamos ajustando para melhor atende-ló!");
+  }
+
+  exibeColaboradorSimNao() {
+    this.exibeColaborador = !this.exibeColaborador;
   }
 }
