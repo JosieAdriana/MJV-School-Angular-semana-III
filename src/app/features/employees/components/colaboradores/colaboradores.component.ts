@@ -27,7 +27,7 @@ export class ColaboradoresComponent implements OnInit {
       nome: "Nathan Carlos Exercício",
       salario: 4500,
       cargo: "Desenvolvedor Pleno",
-      imagem: "https://avatars.githubusercontent.com/u/32680502?v=4",
+      imagem: "https://th.bing.com/th/id/OIP.wX27oUl4ldOchHBu4RQwbQHaFS?pid=ImgDet&rs=1",
       ativo: true
     },
 
@@ -36,7 +36,7 @@ export class ColaboradoresComponent implements OnInit {
       nome: " Carlos Pereira",
       salario: 4000,
       cargo: "Desenvolvedor Pleno",
-      imagem: "https://avatars.githubusercontent.com/u/32680502?v=4",
+      imagem: "https://th.bing.com/th/id/R.375a2599ee3bbc1c228d0113b11f06ec?rik=G91%2fIPKifRf%2f2A&pid=ImgRaw&r=0",
       ativo: false
     },
 
@@ -45,7 +45,7 @@ export class ColaboradoresComponent implements OnInit {
       nome: "Chitaozinho de lima",
       salario: 2500,
       cargo: "Desenvolvedor junior",
-      imagem: "https://avatars.githubusercontent.com/u/32680502?v=4",
+      imagem: "https://www.areavip.com.br/wp-content/uploads/2018/08/gusttavo-lima3.jpg",
       ativo: true
     }
 
