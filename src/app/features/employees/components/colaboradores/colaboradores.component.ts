@@ -27,7 +27,7 @@ export class ColaboradoresComponent implements OnInit {
       nome: "Nathan Carlos Exercício",
       salario: 4500,
       cargo: "Desenvolvedor Pleno",
-      imagem: "https://th.bing.com/th/id/OIP.wX27oUl4ldOchHBu4RQwbQHaFS?pid=ImgDet&rs=1",
+      imagem: "https://avatars.githubusercontent.com/u/32680502?v=4",
       ativo: true
     },
 
