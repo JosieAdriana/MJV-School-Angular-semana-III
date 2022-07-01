@@ -60,7 +60,7 @@ export class ColaboradoresComponent implements OnInit {
     alert("Estamos ajustando para melhor atende-ló!");
   }
 
-  exibeColaboradorSimNao() {
+  exibeColaboradoresSimNao() {
     this.exibeColaborador = !this.exibeColaborador;
   }
 }

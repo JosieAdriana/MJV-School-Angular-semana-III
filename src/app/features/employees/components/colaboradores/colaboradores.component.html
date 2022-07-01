@@ -6,12 +6,9 @@
     <p>Nome: {{ colaborador.nome }}</p>
     <p>Salário: {{colaborador.salario}}</p>
     <p>Cargo: {{colaborador.cargo}}</p>
-    <img src=" {{colaborador.imagem}} "width="150px" height="150px">
+    <img src= "{{ colaborador.imagem }}" width="150px" height="150px">
     <p [ngClass]="{'produtivo' : colaborador.ativo, 'improdutivo' : !colaborador.ativo}">{{ colaborador.ativo ? 'Na ativa' : 'Aposentado'}}</p>
     </div>
     <br>
 </div>
-
-
-<br>
 <button (click)="saibaMais()">Saiba mais</button>
