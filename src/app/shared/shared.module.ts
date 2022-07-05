@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BlueDirective } from './directives/blue.directive';
+import { PhonePipe } from './pipes/phone.pipe';
 
 
 
@@ -10,14 +11,16 @@ import { BlueDirective } from './directives/blue.directive';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    BlueDirective
+    BlueDirective,
+    PhonePipe
   ],
   imports: [
     CommonModule
   ],
   exports: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    PhonePipe
   ],
 })
 export class SharedModule { }

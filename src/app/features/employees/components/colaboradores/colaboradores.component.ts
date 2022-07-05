@@ -10,7 +10,11 @@ export class ColaboradoresComponent implements OnInit {
 
   titulo = "Funcionários";
 
+  telefone = "51996338705";
+
   exibeColaborador = true;
+
+  dataHoje = new Date;
 
   colaborador = {
     id: 7,

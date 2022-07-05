@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ColaboradoresComponent } from './components/colaboradores/colaboradores.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 
@@ -8,8 +9,9 @@ import { ColaboradoresComponent } from './components/colaboradores/colaboradores
   declarations: [
     ColaboradoresComponent
   ],
-    imports: [
-    CommonModule
+  imports: [
+    CommonModule,
+    SharedModule
   ],
   exports: [
     ColaboradoresComponent

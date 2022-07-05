@@ -1,14 +1,19 @@
-<h2>{{ titulo }}</h2>
+<h2>{{ titulo | uppercase }}</h2>
+
+<h3> Remuneração atualizada até: {{ dataHoje | date: 'long' }}</h3>
 
 <div *ngFor="let colaborador of colaboradores ">
     <div class="card-salario">
-    <p>Id: {{ colaborador.id }}</p>
-    <p>Nome: {{ colaborador.nome }}</p>
-    <p>Salário: {{colaborador.salario}}</p>
-    <p>Cargo: {{colaborador.cargo}}</p>
-    <img src= "{{ colaborador.imagem }}" width="150px" height="150px">
-    <p [ngClass]="{'produtivo' : colaborador.ativo, 'improdutivo' : !colaborador.ativo}">{{ colaborador.ativo ? 'Na ativa' : 'Aposentado'}}</p>
+        <p>Id: {{ colaborador.id }}</p>
+        <p>Nome: {{ colaborador.nome }}</p>
+        <p>Salário: {{colaborador.salario | currency: 'R$'}}</p>
+        <p>Cargo: {{colaborador.cargo}}</p>
+        <img src="{{ colaborador.imagem }}" width="150px" height="150px">
+        <p [ngClass]="{'produtivo' : colaborador.ativo, 'improdutivo' : !colaborador.ativo}">{{ colaborador.ativo ? 'Na
+            ativa' : 'Aposentado'}}</p>
     </div>
     <br>
 </div>
 <button (click)="saibaMais()">Saiba mais</button>
+<br>
+<h2>Telefone da Empresa: {{ telefone | phone}}</h2>
